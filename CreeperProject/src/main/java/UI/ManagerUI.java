@@ -15,6 +15,8 @@ public class ManagerUI extends javax.swing.JFrame {
      */
     public ManagerUI() {
         initComponents();
+        
+        int i = 0;
     }
 
     /**

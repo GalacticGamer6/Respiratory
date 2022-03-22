@@ -10,4 +10,7 @@ package Backend;
  */
 public class CreeperManager {
     
+     public Object setCreeper() {
+    Creeper c = new Creeper(); 
+}
 }

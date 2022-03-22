@@ -12,5 +12,6 @@ public class CreeperManager {
     
      public Object setCreeper() {
     Creeper c = new Creeper(); 
+    int i = 0 ;
 }
 }

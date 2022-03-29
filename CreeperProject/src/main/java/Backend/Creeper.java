@@ -21,4 +21,12 @@ public class Creeper {
         HP = 100; 
         blastRadius = 10.5; 
     }
+    
+    public String toString(){
+        return "Creeper{colour: " + colour + ", biome: " + biome + ", HP: " + HP + ", Blast Radius: " + blastRadius; 
+    }
+    
+    public String toFileString(){
+        return colour + "#" + biome +"#"+ HP + "#" + blastRadius;
+    }
 }

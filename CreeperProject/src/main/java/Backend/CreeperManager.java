@@ -45,7 +45,7 @@ public class CreeperManager {
     public static String getCreeper() {
 
         Scanner sc = new Scanner(PATH);
-
+        //Scanner sc = new Scanner(new File(PATH))
         String colour = sc.next();
         String biome = sc.next();
         int HP = sc.nextInt();

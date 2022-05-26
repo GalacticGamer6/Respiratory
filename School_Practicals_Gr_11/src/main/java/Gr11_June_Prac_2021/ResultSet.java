@@ -43,7 +43,24 @@ public class ResultSet {
         String file_path = "School_Practicals_Gr_11\\data\\Results.txt";
         Scanner sc = new Scanner(name);
         
-        String surname;
+        Scanner nameSc = new Scanner(name);
+        String output = "";
         
+        while(nameSc.hasNext()){
+            String currentName = nameSc.next();
+            
+            if(nameSc.hasNext()){
+                output += currentName.charAt(0);
+            }else{
+                output = currentName.toUpperCase()+ ", " + output;
+            }
+        }
+        return output;
     }
+    
+    
+    public String nameAndRating(){
+        
+        return reformatName() + getRating();
+    } 
 }
